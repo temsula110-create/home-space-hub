@@ -2,57 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* HomeBasics Design System - Warm, modern home decor palette */
+/* HomeBasics Design System - Ash, cream, white, grey & mint green palette */
 
 @layer base {
   :root {
-    /* Base colors - warm neutrals */
-    --background: 35 20% 97%;
-    --foreground: 25 10% 15%;
+    /* Base colors - cream and ash */
+    --background: 45 15% 98%;
+    --foreground: 210 5% 25%;
 
     /* Card system */
-    --card: 35 25% 98%;
-    --card-foreground: 25 10% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 5% 25%;
 
     /* Popover */
-    --popover: 35 25% 98%;
-    --popover-foreground: 25 10% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 5% 25%;
 
-    /* Primary - warm sage green */
-    --primary: 150 20% 45%;
-    --primary-foreground: 35 25% 98%;
-    --primary-hover: 150 25% 40%;
+    /* Primary - mint green */
+    --primary: 160 35% 70%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 160 40% 65%;
 
-    /* Secondary - warm cream */
-    --secondary: 35 30% 90%;
-    --secondary-foreground: 25 15% 20%;
+    /* Secondary - light cream */
+    --secondary: 45 20% 95%;
+    --secondary-foreground: 210 8% 30%;
 
-    /* Muted tones */
-    --muted: 35 15% 92%;
-    --muted-foreground: 25 8% 50%;
+    /* Muted tones - grey */
+    --muted: 210 5% 92%;
+    --muted-foreground: 210 8% 55%;
 
-    /* Accent - terracotta */
-    --accent: 15 45% 65%;
-    --accent-foreground: 35 25% 98%;
+    /* Accent - ash grey */
+    --accent: 210 8% 85%;
+    --accent-foreground: 210 5% 25%;
 
     /* Destructive */
     --destructive: 0 70% 55%;
-    --destructive-foreground: 35 25% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     /* Borders and inputs */
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 150 20% 45%;
+    --border: 210 5% 88%;
+    --input: 210 5% 88%;
+    --ring: 160 35% 70%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(35 25% 96%), hsl(150 15% 92%));
-    --gradient-card: linear-gradient(180deg, hsl(35 30% 98%), hsl(35 25% 96%));
-    --gradient-accent: linear-gradient(135deg, hsl(15 45% 65%), hsl(25 40% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(45 15% 98%), hsl(160 20% 95%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(45 15% 98%));
+    --gradient-accent: linear-gradient(135deg, hsl(160 35% 70%), hsl(160 30% 75%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(25 10% 15% / 0.1);
-    --shadow-medium: 0 8px 30px -8px hsl(25 10% 15% / 0.15);
-    --shadow-large: 0 16px 40px -12px hsl(25 10% 15% / 0.2);
+    --shadow-soft: 0 4px 20px -4px hsl(210 5% 25% / 0.08);
+    --shadow-medium: 0 8px 30px -8px hsl(210 5% 25% / 0.12);
+    --shadow-large: 0 16px 40px -12px hsl(210 5% 25% / 0.16);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
