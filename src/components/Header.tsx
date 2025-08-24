@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Search, ShoppingBag, Menu, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import logo from "@/assets/homebasics-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-foreground">HomeBasics</h1>
+            <img src={logo} alt="HomeBasics" className="h-8 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
