@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Search, ShoppingBag, Menu, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import logo from "@/assets/homebasics-logo.png";
+import logo from "@/assets/homebasics-logo-clear.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
